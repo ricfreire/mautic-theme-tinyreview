@@ -1,0 +1,50 @@
+<mjml>
+  <mj-head>
+    <mj-font name="DM Sans" href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Figtree:ital,wght@0,300..900;1,300..900&display=swap"></mj-font>
+    <mj-attributes>
+      <mj-all font-family="'DM Sans', Arial, sans-serif"></mj-all>
+    </mj-attributes>
+    <mj-style>
+      body { font-family: 'DM Sans', Arial, sans-serif; }
+      p { margin: 0px 0px 0px 0px !important; }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#ffffff">
+    <!-- Logo -->
+    <mj-section background-color="transparent" padding="32px 0px">
+      <mj-column>
+        <mj-image width="160px" src="{{ getAssetUrl('themes/'~template~'/assets/logo.png', null, null, true ) }}" padding="0px" />
+      </mj-column>
+    </mj-section>
+    <!-- Content -->
+    <mj-section background-color="#f9f8fc" padding="32px 38px">
+      <mj-column width="100%" padding="0px">
+        <mj-image src="{{ getAssetUrl('themes/'~template~'/assets/emoji.png', null, null, true ) }}" width="70px" padding="0px" />
+        <mj-spacer height="24px"></mj-spacer>
+        <mj-text padding="0px" font-size="34px" line-height="42px" font-weight="900" letter-spacing="-1px" color="#3F2CB5" align="center">Enjoying the App?</mj-text>
+        <mj-spacer height="18px"></mj-spacer>
+        <mj-text padding="0px" font-weight="500" font-size="16px" line-height="26px" color="#252525" align="center">
+          <p>Just a quick 10-second check-in.</p>
+          <p>We'd love to hear how things are going with the app!</p>
+        </mj-text>
+        <mj-spacer height="24px"></mj-spacer>
+        <mj-image href="https://crafting.email" width="180px" src="{{ getAssetUrl('themes/'~template~'/assets/button.png', null, null, true ) }}" padding="0px" />
+      </mj-column>
+    </mj-section>
+    <!-- Notice -->
+    <mj-section background-color="#f4f3fb" padding="32px 38px">
+      <mj-column width="100%" padding="0px">
+        <mj-text padding="0px" font-weight="500" font-size="14px" line-height="24px" color="#252525" align="center">
+          <p><b>Having any issues or concerns?</b></p>
+          <p>Feel free to reply to this email, our team is here and ready to help.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- Footer -->
+    <mj-section background-color="transparent" padding="32px 38px">
+      <mj-column>
+        <mj-text font-family="'DM Sans', Arial, sans-serif" font-weight="500" color="#3F2CB5" font-size="14px" padding="0px" line-height="14px" align="center">© 2025 Crafting.email</mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
